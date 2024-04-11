@@ -1,5 +1,6 @@
 here::i_am("code/02_descriptive_stat.R")
 data_clean<- readRDS("output/data_cleaned.rds")
+install.packages("table1")
 library(magrittr)
 library(tidyverse)
 library(ggplot2)
